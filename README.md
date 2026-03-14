@@ -19,7 +19,7 @@ de la materia de POO a lo largo del semestre.
 
 ##  Lenguaje utilizado
 
-- Python *(cambia según lo que uses)*
+- Python
 
 ---
 
