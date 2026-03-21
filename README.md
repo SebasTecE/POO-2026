@@ -1,6 +1,6 @@
 #  Programación Orientada a Objetos
 
-**Alumno:** Sebastina Grijalva Ochoa  
+**Alumno:** Sebastian Grijalva Ochoa  
 **Materia:** Programación Orientada a Objetos 2SS 2026-1  
 **Docente:** Xenia Padilla Madrid  
 
