@@ -1,20 +1,24 @@
-#Excepciones basicas
+###
+## Excepciones básicas
 
-#Parte 1: try / except simple
+# Parte 1: try / except simple
 print("=" * 50)
-print("PARTE 1: Division con manejo de errores")
+print("PARTE 1: Divisón con manejo de errores")
 print("=" * 50)
 
 try:
-    a = int(input("Ingresa uel numerador: "))
-    b = int(input("Ingresar el denominador: "))
-    total = a / b
+  a = int(input("Ingresa el numerador: "))
+  b = int(input("Ingresa el denominador: "))
+  total = a / b
 
 except ValueError:
-    print("Ingresar un numero entero no una letra")
+  print("Error: SOLO NÚMEROS, no otros símbolos")
 
 except ZeroDivisionError:
-    print("Error: No se puede dividir por cero.")
+  print("Error: No se puede dividir por cero.")
 
 else:
-    print(f"El resultado de {a} / {b} es: {total}")
+  print(f"El resultado de {a} / {b} es: {total}")
+
+finally:
+  print("¡Gracias por usar el programa de división!")
